@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const send = vi.hoisted(() => vi.fn());
 
-vi.mock('camelmailer', () => ({
+vi.mock('@camelmailer/sdk', () => ({
   CamelMailer: class {
     emails = { send };
   },

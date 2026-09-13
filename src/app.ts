@@ -1,5 +1,5 @@
 import express from 'express';
-import { CamelMailer } from 'camelmailer';
+import { CamelMailer } from '@camelmailer/sdk';
 
 // Reads CAMELMAILER_API_KEY (and optionally CAMELMAILER_BASE_URL for
 // self-hosted instances) from the environment.
